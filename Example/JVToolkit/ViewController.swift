@@ -7,11 +7,16 @@
 //
 
 import UIKit
+import JVToolkit
 
 class ViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
+        
+        
+        JVBaseUtils.sharedInstance
+        
         // Do any additional setup after loading the view, typically from a nib.
     }
 

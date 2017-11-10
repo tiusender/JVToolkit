@@ -1,0 +1,63 @@
+PODS:
+  - AEXML (4.1.0)
+  - Alamofire (4.5.1)
+  - AlamofireImage (3.3.0):
+    - Alamofire (~> 4.5)
+  - DACircularProgress (2.3.1)
+  - FBSnapshotTestCase (2.1.4):
+    - FBSnapshotTestCase/SwiftSupport (= 2.1.4)
+  - FBSnapshotTestCase/Core (2.1.4)
+  - FBSnapshotTestCase/SwiftSupport (2.1.4):
+    - FBSnapshotTestCase/Core
+  - JVToolkit (0.1.0):
+    - AEXML
+    - AlamofireImage
+    - LGRefreshView
+    - PKHUD
+    - ReachabilitySwift
+    - SwiftyJSON
+    - SwiftyUserDefaults
+  - LGRefreshView (1.0.5):
+    - DACircularProgress (~> 2.3.0)
+  - Nimble (7.0.2)
+  - Nimble-Snapshots (6.3.0):
+    - Nimble-Snapshots/Core (= 6.3.0)
+  - Nimble-Snapshots/Core (6.3.0):
+    - FBSnapshotTestCase (~> 2.0)
+    - Nimble (~> 7.0)
+  - PKHUD (5.0.0)
+  - Quick (1.2.0)
+  - ReachabilitySwift (4.1.0)
+  - SwiftyJSON (4.0.0)
+  - SwiftyUserDefaults (3.0.0)
+
+DEPENDENCIES:
+  - FBSnapshotTestCase (~> 2.1.4)
+  - JVToolkit (from `../`)
+  - Nimble (~> 7.0.2)
+  - Nimble-Snapshots (~> 6.3.0)
+  - Quick (~> 1.2.0)
+
+EXTERNAL SOURCES:
+  JVToolkit:
+    :path: ../
+
+SPEC CHECKSUMS:
+  AEXML: 647fbb051280f3fb38a1a7caa62b0344055a851c
+  Alamofire: 2d95912bf4c34f164fdfc335872e8c312acaea4a
+  AlamofireImage: 2e784dc5d00f04903a52c1d169181469c805c3df
+  DACircularProgress: 4dd437c0fc3da5161cb289e07ac449493d41db71
+  FBSnapshotTestCase: 094f9f314decbabe373b87cc339bea235a63e07a
+  JVToolkit: 8a50e24daacd8a753b649d8c40267d0c044c0cec
+  LGRefreshView: 34746afadbd23de8d1449cab15f3d89269645d43
+  Nimble: bfe1f814edabba69ff145cb1283e04ed636a67f2
+  Nimble-Snapshots: f5459b5b091678dc942d03ec4741cacb58ba4a52
+  PKHUD: 3c001512c6e002091184197a8de7a20420786e3b
+  Quick: 58d203b1c5e27fff7229c4c1ae445ad7069a7a08
+  ReachabilitySwift: 6849231cd4e06559f3b9ef4a97a0a0f96d41e09f
+  SwiftyJSON: 070dabdcb1beb81b247c65ffa3a79dbbfb3b48aa
+  SwiftyUserDefaults: 0f1d45fc3aafb9064dac661e367f8f83fe21a4b4
+
+PODFILE CHECKSUM: 02cff76e56f0f06e3a6e9b14c4eb456a6ddfbbb1
+
+COCOAPODS: 1.3.1
